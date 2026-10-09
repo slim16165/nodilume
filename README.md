@@ -131,6 +131,17 @@ creare una nuova mappa con MapId distinto e revisione 0; non sovrascrive mai la
 mappa di origine. Sono accettati solo file `.json` fino a 64 MiB. Questa funzione
 e' pensata per mappe piccole/medie e non sostituisce backup/recovery SQLite.
 
+## Importa vault Obsidian (NuGet)
+
+Il pulsante `Importa vault Obsidian` seleziona una cartella Markdown e crea
+una nuova mappa SQLite: cartelle come livelli, note come idee e wikilink
+come relazioni direzionate. La lettura usa il pacchetto privato versionato
+`ObsidianNotesKeeper.Vault` 0.1.1 (piu' `SyntaxHelper` transitivo) proveniente
+dall'altro repository. Non vengono copiate librerie o note in questo codice.
+Il vault non viene modificato; importazioni successive creano nuove mappe.
+Consultare `docs/obsidian-nuget-import.md` per accesso al feed NuGet privato,
+limiti, gestione dei wikilink e prove automatizzate.
+
 ## Backup/recovery SQLite (GRAPH.06.07)
 
 `Crea backup` salva uno snapshot consistente nel folder gestito `Maps\Backups`;

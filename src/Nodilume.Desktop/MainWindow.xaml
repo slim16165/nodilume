@@ -32,6 +32,8 @@
       Padding="12,5" Click="RenameMapButton_Click"/>
     <WrapPanel Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="4"
       HorizontalAlignment="Right" Margin="0,8,0,0">
+     <Button x:Name="ImportObsidianButton" Content="Importa vault Obsidian" Padding="12,5"
+       Margin="0,0,8,0" Click="ImportObsidianButton_Click"/>
      <Button x:Name="ImportMapButton" Content="Importa file" Padding="12,5"
        Margin="0,0,8,0" Click="ImportMapButton_Click"/>
      <Button x:Name="ExportMapButton" Content="Esporta file" Padding="12,5"

@@ -23,6 +23,7 @@ public partial class MainWindow
         NewMapButton.IsEnabled = !blocked;
         RenameMapButton.IsEnabled = !blocked;
         ImportMapButton.IsEnabled = !blocked;
+        ImportObsidianButton.IsEnabled = !blocked;
         ExportMapButton.IsEnabled = !blocked && _selectedMap is not null;
         BackupMapButton.IsEnabled = !blocked && _selectedMap is not null;
         RestoreBackupButton.IsEnabled = !blocked;

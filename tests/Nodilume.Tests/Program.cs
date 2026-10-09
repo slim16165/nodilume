@@ -9,6 +9,7 @@ internal static class Program
             ("Semantic projection", SemanticProjectionTests.RunAsync),
             ("Portable map JSON", PortableMapJsonTests.RunAsync),
             ("Portable map files", PortableMapFileTests.RunAsync),
+            ("Obsidian NuGet import", ObsidianImportTests.RunAsync),
             ("SQLite backup and recovery", MapBackupRecoveryTests.RunAsync),
             ("Multi-map catalog", MapCatalogTests.RunAsync),
             ("Idea and node editor", MapContentEditorTests.RunAsync),

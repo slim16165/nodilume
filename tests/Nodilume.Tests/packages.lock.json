@@ -20,6 +20,22 @@
           "SQLitePCLRaw.core": "2.1.11"
         }
       },
+      "ObsidianNotesKeeper.SyntaxHelper": {
+        "type": "Transitive",
+        "resolved": "0.1.1",
+        "contentHash": "r6gl4KnwHa+HL1HS549Qh2Bf6DF2F5WNrfHIk6+8VyuSXVLmxgal7pqh+ixzzEHPxQaUisjnGdIrCQbBvgOwGA==",
+        "dependencies": {
+          "YamlDotNet": "16.3.0"
+        }
+      },
+      "ObsidianNotesKeeper.Vault": {
+        "type": "Transitive",
+        "resolved": "0.1.1",
+        "contentHash": "VH3vElpKVe2kSuOThmetc2iJulOURJeOmRG81AcGdEfNfGg6t677ofb8LbF/1ghECin0GNe1wPptRA/yoAT6GA==",
+        "dependencies": {
+          "ObsidianNotesKeeper.SyntaxHelper": "0.1.1"
+        }
+      },
       "SQLitePCLRaw.bundle_e_sqlite3": {
         "type": "Transitive",
         "resolved": "2.1.11",
@@ -47,6 +63,11 @@
           "SQLitePCLRaw.core": "2.1.11"
         }
       },
+      "YamlDotNet": {
+        "type": "Transitive",
+        "resolved": "16.3.0",
+        "contentHash": "SgMOdxbz8X65z8hraIs6hOEdnkH6hESTAIUa7viEngHOYaH+6q5XJmwr1+yb9vJpNQ19hCQY69xbFsLtXpobQA=="
+      },
       "nodilume.application": {
         "type": "Project",
         "dependencies": {
@@ -62,6 +83,7 @@
           "Microsoft.Data.Sqlite": "[10.0.9, )",
           "Nodilume.Application": "[1.0.0, )",
           "Nodilume.Core": "[1.0.0, )",
+          "ObsidianNotesKeeper.Vault": "[0.1.1, )",
           "SQLitePCLRaw.lib.e_sqlite3": "[2.1.13, )"
         }
       }
